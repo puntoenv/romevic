@@ -1,4 +1,4 @@
-import { Palette, Phone, Mail, Brain } from "lucide-react";
+import { Palette, Phone, Mail } from "lucide-react";
 
 export default function Services() {
   return (
