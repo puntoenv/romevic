@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-export default function About() {
+export default function About () {
   return (
     <section
       id="about"
@@ -67,5 +67,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  );
+  )
 }

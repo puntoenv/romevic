@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image'
 
-export default function Showcase() {
+export default function Showcase () {
   return (
     <section className="flex justify-center items-center w-full py-12 md:py-24 lg:py-32 bg-white">
       <div className="container px-4 md:px-6">
@@ -15,8 +15,8 @@ export default function Showcase() {
               height={300}
               src="/basics.jpg?height=300&width=400"
               style={{
-                aspectRatio: "400/300",
-                objectFit: "cover",
+                aspectRatio: '400/300',
+                objectFit: 'cover'
               }}
               width={400}
             />
@@ -31,8 +31,8 @@ export default function Showcase() {
               height={300}
               src="/acids.jpg?height=300&width=400"
               style={{
-                aspectRatio: "400/300",
-                objectFit: "cover",
+                aspectRatio: '400/300',
+                objectFit: 'cover'
               }}
               width={400}
             />
@@ -47,8 +47,8 @@ export default function Showcase() {
               height={300}
               src="/directs.jpg?height=300&width=400"
               style={{
-                aspectRatio: "400/300",
-                objectFit: "cover",
+                aspectRatio: '400/300',
+                objectFit: 'cover'
               }}
               width={400}
             />
@@ -61,5 +61,5 @@ export default function Showcase() {
         </div>
       </div>
     </section>
-  );
+  )
 }

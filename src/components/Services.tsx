@@ -1,6 +1,6 @@
-import { Palette, Phone, Mail } from "lucide-react";
+import { Palette, Phone, Mail } from 'lucide-react'
 
-export default function Services() {
+export default function Services () {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 flex justify-center items-center">
       <div className="container px-4 md:px-6">
@@ -48,5 +48,5 @@ export default function Services() {
         </div>
       </div>
     </section>
-  );
+  )
 }

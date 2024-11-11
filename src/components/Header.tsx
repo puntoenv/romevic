@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
-import Link from "next/link";
-import { Colors } from "./icons";
+import Link from 'next/link'
+import { Colors } from './icons'
 
-export default function Header() {
+export default function Header () {
   return (
     <header className="px-2 sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60 flex justify-center">
       <div className="container flex h-14 items-center justify-between">
@@ -24,5 +24,5 @@ export default function Header() {
         {/* </nav> */}
       </div>
     </header>
-  );
+  )
 }

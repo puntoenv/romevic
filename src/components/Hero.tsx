@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Hero () {
   return (
     <section className="text-center grid place-content-center w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
       <div className="container px-4 md:px-6">
@@ -19,5 +19,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  );
+  )
 }

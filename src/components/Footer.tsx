@@ -1,6 +1,6 @@
-import { Colors, Location, Mail, Whatsapp } from "./icons";
+import { Colors, Location, Mail, Whatsapp } from './icons'
 
-export default function Footer() {
+export default function Footer () {
   return (
     <footer className="max-sm:text-center flex justify-center w-full py-6 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white">
       <div className="container">
@@ -50,5 +50,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }
