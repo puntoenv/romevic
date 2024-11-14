@@ -1,19 +1,17 @@
-import { Colors, Location, Mail, Whatsapp } from './icons'
+import { Location, Mail, TestTube, Whatsapp } from "../icons";
 
-export default function Footer () {
+export const Footer = () => {
   return (
-    <footer className="max-sm:text-center flex justify-center w-full py-6 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white">
+    <footer className="max-sm:text-center flex justify-center w-full py-6 bg-primary  text-white">
       <div className="container">
-        <div className="flex flex-col justify-center items-center sm:flex-row gap-1 lg:gap-8">
+        <div className="flex flex-col justify-center items-center lg:flex-row gap-4 lg:gap-16">
           <div className="flex flex-col lg:flex-row justify-center flex-shrink-0 items-center gap-1">
             <div className="flex justify-center items-center gap-2">
-              <Colors className="size-6" />
+              <div>
+                <TestTube className="size-8" />
+              </div>
               <span className="font-bold">Romevic</span>
             </div>
-            <p className="text-sm flex justify-center items-center">
-              <span className="hidden lg:block"> - </span>
-              Transformando el mundo, un color a la vez.
-            </p>
           </div>
           <ul className="flex flex-col lg:flex-row font-bold text-sm justify-center items-center gap-1 md:gap-4">
             <a
@@ -50,5 +48,5 @@ export default function Footer () {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
