@@ -1,0 +1,142 @@
+{
+  "directColors": [
+    {
+      "id": 1,
+      "title": "Direct Yellow 7G 500%",
+      "name": "Direct Yellow 96",
+      "hex": "#E6F66D"
+    },
+    {
+      "id": 2,
+      "title": "Triamin Supra Yellow PG",
+      "name": "Direct Yellow 142",
+      "hex": "#FFFE64"
+    },
+    {
+      "id": 3,
+      "title": "Triamin Supra Yellow RL Ext. Conc.",
+      "name": "Direct Yellow 86",
+      "hex": "#F2B900"
+    },
+    {
+      "id": 4,
+      "title": "Triamin Fast Orange S 200%",
+      "name": "Direct Orange 26",
+      "hex": "#F6703D"
+    },
+    {
+      "id": 5,
+      "title": "Triamin Supra Orange 2GL-AN Conc.",
+      "name": "Direct Orange 39",
+      "hex": "#FEA73F"
+    },
+    {
+      "id": 6,
+      "title": "Triamin Supra Pink FR Conc.",
+      "name": "Direct Red 227",
+      "hex": "#BB0066"
+    },
+    {
+      "id": 7,
+      "title": "Triamin Fast Scarlet 4B Ext. Conc.",
+      "name": "Direct Red 23",
+      "hex": "#C74342"
+    },
+    {
+      "id": 8,
+      "title": "Triamin Supra Scarlet F2G",
+      "name": "Direct Red 224",
+      "hex": "#CF3E3F"
+    },
+    {
+      "id": 9,
+      "title": "Triamin Red F3B-A Ext. Conc.",
+      "name": "Direct Red 80",
+      "hex": "#8C1718"
+    },
+    {
+      "id": 10,
+      "title": "Triamin Supra Red Bws",
+      "name": "Direct Red 243",
+      "hex": "#C9184C"
+    },
+    {
+      "id": 11,
+      "title": "Triamin Supra Rubine 2BL-N Conc.",
+      "name": "Direct Red 83",
+      "hex": "#A11212"
+    },
+    {
+      "id": 12,
+      "title": "Triamin Supra Brilliant Blue GL",
+      "name": "Direct Blue 293",
+      "hex": "#003DA5"
+    },
+    {
+      "id": 13,
+      "title": "Triamin Supra Blue BRL-A Ext.",
+      "name": "Direct Blue 201",
+      "hex": "#040976"
+    },
+    {
+      "id": 14,
+      "title": "Triamin Blue BRR 200%",
+      "name": "Direct Brown 71",
+      "hex": "#202C58"
+    },
+    {
+      "id": 15,
+      "title": "Triamin Blue 3RL 300%",
+      "name": "Direct Blue 67",
+      "hex": "#042EA4"
+    },
+    {
+      "id": 16,
+      "title": "Triamin Supra Blue FFRL",
+      "name": "Direct Blue 108",
+      "hex": "#1C1CFF"
+    },
+    {
+      "id": 17,
+      "title": "Triamin Supra Turq. Blue FBL 400%",
+      "name": "Direct Blue 199",
+      "hex": "#11B6C2"
+    },
+    {
+      "id": 18,
+      "title": "Triamin Brown BL Extra",
+      "name": "Direct Brown 103",
+      "hex": "#5E4024"
+    },
+    {
+      "id": 19,
+      "title": "Triamin Brown 2GL Conc.",
+      "name": "Direct Brown 115",
+      "hex": "#6D4035"
+    },
+    {
+      "id": 20,
+      "title": "Triamin Brown RL-ES 130%",
+      "name": "Direct Brown 116",
+      "hex": "#6C401B"
+    },
+    {
+      "id": 21,
+      "title": "Triamin Grey 4GL-T 300%",
+      "name": "Direct Black 62",
+      "hex": "#282828"
+    },
+    {
+      "id": 22,
+      "title": "Triamin Grey CGLL-A",
+      "name": "Direct Black 112",
+      "hex": "#01071E"
+    },
+    {
+      "id": 23,
+      "title": "Triamin Supra Black vsf 1600%",
+      "name": "Direct Black 22",
+      "hex": "#242021"
+    }
+  ]
+}

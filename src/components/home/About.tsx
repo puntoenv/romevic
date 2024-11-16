@@ -28,7 +28,7 @@ export const About = () => {
           <AccordionItem value="item-1" className="py-2 border-none">
             <AccordionTrigger
               className={clsx(
-                "text-black text-lg md:text-2xl font-bold hover:no-underline px-4 bg-sky-500/10 rounded",
+                "text-gray-950 text-lg md:text-2xl font-bold hover:no-underline px-4 bg-sky-500/10 rounded",
                 {
                   "rounded-t rounded-b-none": value === "item-1",
                 },
@@ -56,7 +56,7 @@ export const About = () => {
           <AccordionItem value="item-2" className="py-2 border-none">
             <AccordionTrigger
               className={clsx(
-                "text-black text-lg md:text-2xl font-bold hover:no-underline px-4 bg-sky-500/10 rounded",
+                "text-gray-950 text-lg md:text-2xl font-bold hover:no-underline px-4 bg-sky-500/10 rounded",
                 {
                   "rounded-t rounded-b-none": value === "item-2",
                 },
@@ -85,7 +85,7 @@ export const About = () => {
           <AccordionItem value="item-3" className="py-2 border-none">
             <AccordionTrigger
               className={clsx(
-                "text-black text-lg md:text-2xl font-bold hover:no-underline px-4 bg-sky-500/10 rounded",
+                "text-gray-950 text-lg md:text-2xl font-bold hover:no-underline px-4 bg-sky-500/10 rounded",
                 {
                   "rounded-t rounded-b-none": value === "item-3",
                 },

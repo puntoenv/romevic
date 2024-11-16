@@ -1,8 +1,8 @@
-import { Location, Mail, TestTube, Whatsapp } from "../icons";
+import { Location, Mail, TestTube } from "../icons";
 
 export const Footer = () => {
   return (
-    <footer className="max-sm:text-center flex justify-center w-full py-6 bg-primary  text-white">
+    <footer className="max-sm:text-center flex xl:justify-center w-full py-6 bg-primary text-gray-950 font-bold">
       <div className="container">
         <div className="flex flex-col justify-center items-center lg:flex-row gap-4 lg:gap-16">
           <div className="flex flex-col lg:flex-row justify-center flex-shrink-0 items-center gap-1">
@@ -24,7 +24,7 @@ export const Footer = () => {
                 <span>vlen2458@hotmail.com</span>
               </li>
             </a>
-            <a
+            {/* <a
               target="_blank"
               href="https://wa.me/51986526366"
               rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export const Footer = () => {
                 <Whatsapp className="size-4" />
                 <span>+51 986 526 366</span>
               </li>
-            </a>
+            </a> */}
             <a
               target="_blank"
               href="https://maps.app.goo.gl/KN2eppAPFehKn1hV6"

@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
-import { Footer, Header } from "@/components/app";
+import { Footer, Header, WhatsappContact } from "@/components/app";
+import { Raleway } from "next/font/google";
+
+const raleway = Raleway({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Romevic",
@@ -17,10 +24,13 @@ export default function RootLayout({
     <html lang="en">
       <link rel="icon" href="/test-tube.svg" type="image/svg+xml" />
       <body>
-        <div className="flex flex-col min-h-screen">
+        <div
+          className={`relative flex flex-col min-h-screen ${raleway.className}`}
+        >
           <Header />
           {children}
         </div>
+        <WhatsappContact />
         <Footer />
       </body>
     </html>

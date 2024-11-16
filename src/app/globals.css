@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.image {
+  position: relative; /* Permite que el pseudo-elemento se posicione respecto a este contenedor */
+}
+
 :root {
   color-scheme: light dark;
 }
@@ -16,7 +20,7 @@ p {
 
 body {
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: "Onest Variable", sans-serif;
+  /* font-family: "Onest Variable", sans-serif; */
 }
 
 @media (prefers-reduced-motion: reduce) {
