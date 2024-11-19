@@ -1,27 +1,28 @@
-import { Location, Mail, TestTube } from "../icons";
+import Image from "next/image";
+import { Location, Mail } from "../icons";
+import { WhatsappContact } from "./WhatsappContact";
 
 export const Footer = () => {
   return (
     <footer className="max-sm:text-center flex xl:justify-center w-full py-6 bg-primary text-gray-950 font-bold">
-      <div className="container">
-        <div className="flex flex-col justify-center items-center lg:flex-row gap-4 lg:gap-16">
-          <div className="flex flex-col lg:flex-row justify-center flex-shrink-0 items-center gap-1">
-            <div className="flex justify-center items-center gap-2">
-              <div>
-                <TestTube className="size-8" />
-              </div>
-              <span className="font-bold">Romevic</span>
-            </div>
+      <div className="px-4 flex flex-col md:flex-row justify-between w-full gap-y-4">
+        <div className="flex flex-col justify-center items-center md:items-start gap-4">
+          <div className="flex flex-col md:flex-row justify-center flex-shrink-0 items-center gap-1">
+            {/* <TestTube className="size-8" /> */}
+            <Image src="/favicon.png" alt="logo" width={20} height={20} />
+            <span className="font-bold">Romevic SRL</span>
           </div>
-          <ul className="flex flex-col lg:flex-row font-bold text-sm justify-center items-center gap-1 md:gap-4">
+          <ul className="flex flex-col lg:flex-row font-bold text-sm justify-center items-center md:items-start gap-4">
             <a
               target="_blank"
-              href="mailto:vlen2458@hotmail.com"
+              href="mailto:romevicsrl@hotmail.com"
               rel="noopener noreferrer"
             >
               <li className="flex gap-x-1 justify-center md:justify-start items-center">
                 <Mail className="size-4" />
-                <span>vlen2458@hotmail.com</span>
+                <span className="w-min text-nowrap">
+                  romevicsrl@hotmail.com
+                </span>
               </li>
             </a>
             {/* <a
@@ -39,13 +40,16 @@ export const Footer = () => {
               href="https://maps.app.goo.gl/KN2eppAPFehKn1hV6"
               rel="noopener roreferrer"
             >
-              <li className="flex gap-x-1 justify-center md:justify-start items-center">
+              <li className="flex gap-x-1 justify-center md:justify-start">
                 <Location className="size-4" />
-                <span>Kilca 201, San Juan de Lurigancho</span>
+                <span className="w-min text-nowrap">
+                  Kilca 201, San Juan de Lurigancho
+                </span>
               </li>
             </a>
           </ul>
         </div>
+        <WhatsappContact />
       </div>
     </footer>
   );

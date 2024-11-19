@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
-import { Footer, Header, WhatsappContact } from "@/components/app";
+import { Footer, Header } from "@/components/app";
 import { Raleway } from "next/font/google";
 
 const raleway = Raleway({
@@ -22,7 +22,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/test-tube.svg" type="image/svg+xml" />
       <body>
         <div
           className={`relative flex flex-col min-h-screen ${raleway.className}`}
@@ -30,7 +29,7 @@ export default function RootLayout({
           <Header />
           {children}
         </div>
-        <WhatsappContact />
+        {/* <WhatsappContact /> */}
         <Footer />
       </body>
     </html>

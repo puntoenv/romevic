@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { TestTube } from "../icons";
+// import { TestTube } from "../icons";
 // import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import Navbar from "./Navbar";
+import Image from "next/image";
 
 export const Header = () => {
   // const pathname = usePathname();
@@ -19,8 +20,9 @@ export const Header = () => {
           )}
           href="/"
         >
-          <TestTube className="size-6" />
-          <span className="font-bold">Romevic</span>
+          {/* <TestTube className="size-6" /> */}
+          <Image src="/favicon.png" alt="logo" width={20} height={20} />
+          <span className="font-bold">Romevic SRL</span>
         </Link>
         <Navbar />
       </div>

@@ -9,10 +9,10 @@ export const Hero = () => {
         <section className="w-full px-4 py-8 md:py-8 md:px-4 lg:py-16 lg:px-8 xl:px-16">
           <div className="text-gray-950 flex flex-col gap-y-2 md:gap-y-4">
             <h1 className="text-center font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-              Transforma tus telas y prendas con Romevic
+              Transforma tus telas y prendas en Romevic
             </h1>
             <em className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-              Liderando en insumos para la industria textil desde 1993
+              Lider en insumos para la industria textil desde 1993
             </em>
             <p className="text-center text-base sm:text-lg md:text-xl lg:text-2xl">
               Nos dedicamos a traer soluciones químicas de calidad que impulsan
@@ -24,23 +24,23 @@ export const Hero = () => {
           <Image
             src="/dye-1.jpeg"
             alt="hero"
-            width={600}
+            width={400}
             height={300}
-            className="h-64 md:h-64 lg:h-80 grow hidden xl:block"
+            className="h-64 md:h-64 xl:h-80 grow hidden xl:block"
           />
           <Image
             src="/dye-2.jpeg"
             alt="hero"
-            width={600}
+            width={400}
             height={300}
-            className="md:h-64 lg:h-80 hidden md:block grow"
+            className="md:h-64 xl:h-80 hidden md:block grow"
           />
           <Image
             src="/dye-3.jpeg"
             alt="hero"
-            width={600}
+            width={400}
             height={300}
-            className="md:h-64 lg:h-80 grow"
+            className="md:h-64 xl:h-80 grow"
           />
         </div>
       </div>
