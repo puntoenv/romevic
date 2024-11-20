@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Reactive Yellow 4GL",
+    "name": "Reactive Yellow 160",
+    "hex": "#FFFF08"
+  },
+  {
+    "id": 2,
+    "title": "Reactive Yellow EHF-R",
+    "name": "Reactive Yellow 145",
+    "hex": "#CA6E0F"
+  },
+  {
+    "id": 3,
+    "title": "Reactive Orange ME2RL",
+    "name": "Reactive Orange 122",
+    "hex": "#F25F2B"
+  },
+  {
+    "id": 4,
+    "title": "Reactive Red 3BS",
+    "name": "Reactive Red 195",
+    "hex": "#B81B27"
+  },
+  {
+    "id": 5,
+    "title": "Reactive Scarlet 2G",
+    "name": "Reactive Red 222",
+    "hex": "#FE6137"
+  },
+  {
+    "id": 6,
+    "title": "Reactive Native Blue EHF-B",
+    "name": "Reactive Blue 222",
+    "hex": "#091D96"
+  },
+  {
+    "id": 7,
+    "title": "Reactive Blue EHF-R",
+    "name": "Reactive Blue 194",
+    "hex": "#081866"
+  },
+  {
+    "id": 8,
+    "title": "Reactive Black DD",
+    "name": "Reactive Black 5",
+    "hex": "#1B232E"
+  }
+]

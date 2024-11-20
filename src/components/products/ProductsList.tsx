@@ -1,5 +1,5 @@
 import { ProductCard } from "../product/ProductCard";
-import { directColors } from "@/data/products/direct-dyes-on-cotton.json";
+import directColors from "@/data/products/direct-colors.json";
 
 export const ProductsList = () => {
   return (

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Acid Yellow 2GL",
+    "name": "Acid Yellow 17",
+    "hex": "#F0D50A"
+  },
+  {
+    "id": 2,
+    "title": "Acid Orange II Conc.",
+    "name": "Acid Orange 7",
+    "hex": "#F9472A"
+  },
+  {
+    "id": 3,
+    "title": "Acid Red 3BN 160%",
+    "name": "Acid Red 131",
+    "hex": "#B21909"
+  },
+  {
+    "id": 4,
+    "title": "Acid Blue 5RN-A Conc.",
+    "name": "Acid Blue 113",
+    "hex": "#001A71"
+  },
+  {
+    "id": 5,
+    "title": "Acid Black DR-A 150%",
+    "name": "Acid Black 194",
+    "hex": "#1F1E1C"
+  }
+]
