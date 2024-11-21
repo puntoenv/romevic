@@ -1,24 +1,24 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "title": "Gold Yellow GL 400%",
     "name": "Basic Yellow 28",
     "hex": "#FF9F00"
   },
   {
-    "id": "2",
+    "id": 2,
     "title": "Violet Red 3R 300%",
     "name": "Basic Red 16",
     "hex": "#B11482"
   },
   {
-    "id": "3",
+    "id": 3,
     "title": "Blue X-GRL 250%",
     "name": "Basic Blue 41",
     "hex": "#1B4192"
   },
   {
-    "id": "4",
+    "id": 4,
     "title": "Malachite Green",
     "name": "Basic Green 4",
     "hex": "#348946"
