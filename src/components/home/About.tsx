@@ -50,6 +50,7 @@ export const About = () => {
                 width={500}
                 height={250}
                 alt="Quienes Somos"
+                priority
               />
             </AccordionContent>
           </AccordionItem>
@@ -79,6 +80,7 @@ export const About = () => {
                 width={500}
                 height={250}
                 alt="Nuestra Misión"
+                priority
               />
             </AccordionContent>
           </AccordionItem>
@@ -107,6 +109,7 @@ export const About = () => {
                 width={500}
                 height={250}
                 alt="La Visión"
+                priority
               />
             </AccordionContent>
           </AccordionItem>

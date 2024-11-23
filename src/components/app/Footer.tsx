@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="flex flex-col justify-center items-center md:items-start gap-4">
           <div className="flex flex-col md:flex-row justify-center flex-shrink-0 items-center gap-1">
             {/* <TestTube className="size-8" /> */}
-            <Image src="/favicon.png" alt="logo" width={20} height={20} />
+            <Image src="/icon.png" alt="logo" width={20} height={20} />
             <span className="font-bold">Romevic SRL</span>
           </div>
           <ul className="flex flex-col lg:flex-row font-bold text-sm justify-center items-center md:items-start gap-4">

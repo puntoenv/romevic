@@ -21,7 +21,7 @@ export const Header = () => {
           href="/"
         >
           {/* <TestTube className="size-6" /> */}
-          <Image src="/favicon.png" alt="logo" width={20} height={20} />
+          <Image src="/icon.png" alt="logo" width={20} height={20} />
           <span className="font-bold">Romevic SRL</span>
         </Link>
         <Navbar />
