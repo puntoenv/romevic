@@ -9,6 +9,7 @@ export const ProductsBanner = () => {
         alt="Products Banner"
         width={2000}
         height={500}
+        loading="eager"
       />
     </>
   );

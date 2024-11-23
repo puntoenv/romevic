@@ -27,7 +27,7 @@ export const Hero = () => {
             width={400}
             height={300}
             className="h-64 md:h-64 xl:h-80 grow hidden xl:block"
-            priority
+            loading="eager"
           />
           <Image
             src="/dye-2.jpeg"
@@ -35,7 +35,7 @@ export const Hero = () => {
             width={400}
             height={300}
             className="md:h-64 xl:h-80 hidden md:block grow"
-            priority
+            loading="eager"
           />
           <Image
             src="/dye-3.jpeg"
@@ -43,7 +43,7 @@ export const Hero = () => {
             width={400}
             height={300}
             className="md:h-64 xl:h-80 grow"
-            priority
+            loading="eager"
           />
         </div>
       </div>
