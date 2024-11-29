@@ -140,6 +140,14 @@
       "hex": "#11B6C2"
     },
     {
+      "id": 25,
+      "title": "Triamin Green BA-N CONC.",
+      "titulo": "Verde Triamin BA-N CONC.",
+      "name": "Direct Green 1",
+      "image": "/colors/direct/direct-green-1/image.png",
+      "hex": "#00A877"
+    },
+    {
       "id": 18,
       "title": "Triamin Brown BL Extra",
       "titulo": "Pardo Triamin BL EXTRA",
@@ -195,14 +203,6 @@
       "image": "/colors/direct/direct-violet-66/image.png",
       "hex": "#8D5EC8",
       "dontShow": true
-    },
-    {
-      "id": 25,
-      "title": "Triamin Green BA-N CONC.",
-      "titulo": "Verde Triamin BA-N CONC.",
-      "name": "Direct Green 1",
-      "image": "/colors/direct/direct-green-1/image.png",
-      "hex": "#78FF77"
     }
   ]
 }

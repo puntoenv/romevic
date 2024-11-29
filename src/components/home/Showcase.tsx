@@ -15,7 +15,7 @@ export const Showcase = () => {
           >
             <Image
               alt="Jeans teñidos con un patrón de tie-dye colorido"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
               height={300}
               src="/acids.jpeg?height=300&width=400"
               style={{
@@ -25,7 +25,7 @@ export const Showcase = () => {
               width={400}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <p className="text-white text-lg font-bold">Colorantes Ácidos</p>
+              <p className="text-white text-xl font-bold">COLORANTES ÁCIDOS</p>
             </div>
           </Link>
           <Link
@@ -34,7 +34,7 @@ export const Showcase = () => {
           >
             <Image
               alt="Variedad de accesorios teñidos incluyendo bufandas y bolsos"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
               height={300}
               src="/directs.jpg?height=300&width=400"
               style={{
@@ -44,8 +44,8 @@ export const Showcase = () => {
               width={400}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <p className="text-white text-lg font-bold">
-                Colorantes Directos
+              <p className="text-white text-xl font-bold">
+                COLORANTES DIRECTOS
               </p>
             </div>
           </Link>
@@ -55,7 +55,7 @@ export const Showcase = () => {
           >
             <Image
               alt="Variedad de accesorios teñidos incluyendo bufandas y bolsos"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
               height={300}
               src="/reactives.jpeg?height=300&width=400"
               style={{
@@ -65,8 +65,8 @@ export const Showcase = () => {
               width={400}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <p className="text-white text-lg font-bold">
-                Colorantes Reactivos
+              <p className="text-white text-xl font-bold">
+                COLORANTES REACTIVOS
               </p>
             </div>
           </Link>
@@ -76,7 +76,7 @@ export const Showcase = () => {
           >
             <Image
               alt="Variedad de accesorios teñidos incluyendo bufandas y bolsos"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
               height={300}
               src="/disperses.jpeg?height=300&width=400"
               style={{
@@ -86,8 +86,8 @@ export const Showcase = () => {
               width={400}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <p className="text-white text-lg font-bold">
-                Colorantes Dispersos
+              <p className="text-white text-xl font-bold">
+                COLORANTES DISPERSOS
               </p>
             </div>
           </Link>
@@ -97,7 +97,7 @@ export const Showcase = () => {
           >
             <Image
               alt="Camiseta teñida de varios colores vibrantes"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
               height={300}
               src="/basics.jpeg?height=300&width=400"
               style={{
@@ -107,7 +107,7 @@ export const Showcase = () => {
               width={400}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <p className="text-white text-lg font-bold">Colorantes Básicos</p>
+              <p className="text-white text-xl font-bold">COLORANTES BÁSICOS</p>
             </div>
           </Link>
         </div>
