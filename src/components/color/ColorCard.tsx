@@ -7,10 +7,10 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import directColors from "@/data/products/direct-colors.json";
-// import disperseColors from "@/data/products/disperse-colors.json";
-// import acidColors from "@/data/products/acid-colors.json";
-// import basicColors from "@/data/products/basic-colors.json";
-// import reactiveColors from "@/data/products/reactive-colors.json";
+import acidColors from "@/data/products/acid-colors.json";
+import disperseColors from "@/data/products/disperse-colors.json";
+import basicColors from "@/data/products/basic-colors.json";
+import reactiveColors from "@/data/products/reactive-colors.json";
 
 interface Props {
   category: string;
@@ -22,10 +22,10 @@ const categories = {
 
 const colors = {
   direct: directColors,
-  // disperse: disperseColors,
-  // acid: acidColors,
-  // basic: basicColors,
-  // reactive: reactiveColors,
+  acid: acidColors,
+  disperse: disperseColors,
+  basic: basicColors,
+  reactive: reactiveColors,
 };
 
 export const ColorCard = ({ category }: Props) => {
@@ -40,7 +40,7 @@ export const ColorCard = ({ category }: Props) => {
     console.log(colorData?.image);
   });
 
-  if (!colorData || colorData.dontShow) {
+  if (!colorData || colorData?.dontShow) {
     notFound();
   }
 

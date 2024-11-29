@@ -6,13 +6,16 @@
       "title": "Gold Yellow GL 400%",
       "titulo": "Triacryl Amarillo Oro GL",
       "name": "Basic Yellow 28",
-      "hex": "#FF9F00"
+      "image": "/colors/basic/basic-yellow-28/image.png",
+      "hex": "#FF9F00",
+      "dontShow": false
     },
     {
       "id": 2,
       "title": "Violet Red 3R 300%",
       "titulo": "Triacryl Rojo Violeta 3R",
       "name": "Basic Red 16",
+      "image": "/colors/basic/basic-red-16/image.png",
       "hex": "#B11482"
     },
     {
@@ -20,6 +23,7 @@
       "title": "Blue X-GRL 250%",
       "titulo": "Triacryl Azul X-GRL 250%",
       "name": "Basic Blue 41",
+      "image": "/colors/basic/basic-blue-41/image.png",
       "hex": "#1B4192"
     },
     {
@@ -27,6 +31,7 @@
       "title": "Malachite Green",
       "titulo": "Verde Malachita (Verde 4)",
       "name": "Basic Green 4",
+      "image": "/colors/basic/basic-green-4/image.png",
       "hex": "#348946"
     }
   ]

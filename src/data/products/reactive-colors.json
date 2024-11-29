@@ -6,13 +6,16 @@
       "title": "Reactive Yellow 4GL",
       "titulo": "Amarillo Reactivo 4GL",
       "name": "Reactive Yellow 160",
-      "hex": "#FFFF08"
+      "hex": "#FFFF08",
+      "image": "/colors/reactive/reactive-yellow-160/image.png",
+      "dontShow": false
     },
     {
       "id": 2,
       "title": "Reactive Yellow EHF-R",
       "titulo": "Amarillo Reactivo EHF-R",
       "name": "Reactive Yellow 145",
+      "image": "/colors/reactive/reactive-yellow-145/image.png",
       "hex": "#CA6E0F"
     },
     {
@@ -20,6 +23,7 @@
       "title": "Reactive Orange ME2RL",
       "titulo": "Naranja Reactivo ME2RL",
       "name": "Reactive Orange 122",
+      "image": "/colors/reactive/reactive-orange-122/image.png",
       "hex": "#F25F2B"
     },
     {
@@ -27,6 +31,7 @@
       "title": "Reactive Red 3BS",
       "titulo": "Rojo Reactivo K-3BS",
       "name": "Reactive Red 195",
+      "image": "/colors/reactive/reactive-red-195/image.png",
       "hex": "#B81B27"
     },
     {
@@ -34,6 +39,7 @@
       "title": "Reactive Scarlet 2G",
       "titulo": "Escarlata Reeactivo 2G",
       "name": "Reactive Red 222",
+      "image": "/colors/reactive/reactive-red-222/image.png",
       "hex": "#FE6137"
     },
     {
@@ -41,13 +47,15 @@
       "title": "Reactive Native Blue EHF-B",
       "titulo": "Azul Marino Reactivo EHF-B",
       "name": "Reactive Blue 222",
+      "image": "/colors/reactive/reactive-blue-222/image.png",
       "hex": "#091D96"
     },
     {
       "id": 7,
       "title": "Reactive Blue EHF-R",
-      "titulo": "Azul Mar Reactivo EHF-R",
+      "titulo": "Azul Marino Reactivo EHF-R",
       "name": "Reactive Blue 194",
+      "image": "/colors/reactive/reactive-blue-194/image.png",
       "hex": "#081866"
     },
     {
@@ -55,6 +63,7 @@
       "title": "Reactive Black DD",
       "titulo": "Negro Reactivo DD",
       "name": "Reactive Black 5",
+      "image": "/colors/reactive/reactive-black-5/image.png",
       "hex": "#1B232E"
     }
   ]

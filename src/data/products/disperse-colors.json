@@ -6,13 +6,16 @@
       "title": "Disperse Yellow 3GLF-E 200%",
       "titulo": "Amarillo Triasperse 3GLF-E",
       "name": "Disperse Yellow 54",
-      "hex": "#F3F517"
+      "image": "/colors/disperse/disperse-yellow-54/image.png",
+      "hex": "#F3F517",
+      "dontShow": false
     },
     {
       "id": 2,
       "title": "Disperse Red S-BLF",
       "titulo": "Rojo Dirperso S-BLF",
       "name": "Disperse Red 92",
+      "image": "/colors/disperse/disperse-red-92/image.png",
       "hex": "#820811"
     },
     {
@@ -20,6 +23,7 @@
       "title": "Disperse Red FBL",
       "titulo": "Rojo Disperso FBL",
       "name": "Disperse Red 60",
+      "image": "/colors/disperse/disperse-red-60/image.png",
       "hex": "#DB246F"
     },
     {
@@ -27,6 +31,7 @@
       "title": "Disperse Turquoise GL-S 250%",
       "titulo": "Turquesa Disperso GL-S",
       "name": "Disperse Turquoise 60",
+      "image": "/colors/disperse/disperse-turquoise-60/image.png",
       "hex": "#01B0F1"
     },
     {
@@ -34,6 +39,7 @@
       "title": "Disperse Blue FBL",
       "titulo": "Azul Triasperse FBL",
       "name": "Disperse Blue 56",
+      "image": "/colors/disperse/disperse-blue-56/image.png",
       "hex": "#074689"
     }
   ]
