@@ -4,28 +4,28 @@
     {
       "id": 1,
       "title": "Gold Yellow GL 400%",
-      "titulo": "Amarillo GL",
+      "titulo": "Triacryl Amarillo Oro GL",
       "name": "Basic Yellow 28",
       "hex": "#FF9F00"
     },
     {
       "id": 2,
       "title": "Violet Red 3R 300%",
-      "titulo": "Rojo 3R",
+      "titulo": "Triacryl Rojo Violeta 3R",
       "name": "Basic Red 16",
       "hex": "#B11482"
     },
     {
       "id": 3,
       "title": "Blue X-GRL 250%",
-      "titulo": "Azul X-GRL",
+      "titulo": "Triacryl Azul X-GRL 250%",
       "name": "Basic Blue 41",
       "hex": "#1B4192"
     },
     {
       "id": 4,
       "title": "Malachite Green",
-      "titulo": "Verde Malachita",
+      "titulo": "Verde Malachita (Verde 4)",
       "name": "Basic Green 4",
       "hex": "#348946"
     }
