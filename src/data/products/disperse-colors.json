@@ -1,32 +1,40 @@
-[
-  {
-    "id": 1,
-    "title": "Disperse Yellow 3GLF-E 200%",
-    "name": "Disperse Yellow 54",
-    "hex": "#F3F517"
-  },
-  {
-    "id": 2,
-    "title": "Disperse Red S-BLF",
-    "name": "Disperse Red 92",
-    "hex": "#820811"
-  },
-  {
-    "id": 3,
-    "title": "Disperse Red FBL",
-    "name": "Disperse Red 60",
-    "hex": "#DB246F"
-  },
-  {
-    "id": 4,
-    "title": "Disperse Turquoise GL-S 250%",
-    "name": "Disperse Turquoise 60",
-    "hex": "#01B0F1"
-  },
-  {
-    "id": 5,
-    "title": "Disperse Blue FBL",
-    "name": "Disperse Blue 56",
-    "hex": "#074689"
-  }
-]
+{
+  "category": "disperse",
+  "colors": [
+    {
+      "id": 1,
+      "title": "Disperse Yellow 3GLF-E 200%",
+      "titulo": "Amarillo 3GLF",
+      "name": "Disperse Yellow 54",
+      "hex": "#F3F517"
+    },
+    {
+      "id": 2,
+      "title": "Disperse Red S-BLF",
+      "titulo": "Rojo S-BLF",
+      "name": "Disperse Red 92",
+      "hex": "#820811"
+    },
+    {
+      "id": 3,
+      "title": "Disperse Red FBL",
+      "titulo": "Rojo FBL",
+      "name": "Disperse Red 60",
+      "hex": "#DB246F"
+    },
+    {
+      "id": 4,
+      "title": "Disperse Turquoise GL-S 250%",
+      "titulo": "Turquesa GL",
+      "name": "Disperse Turquoise 60",
+      "hex": "#01B0F1"
+    },
+    {
+      "id": 5,
+      "title": "Disperse Blue FBL",
+      "titulo": "Azul FBL",
+      "name": "Disperse Blue 56",
+      "hex": "#074689"
+    }
+  ]
+}

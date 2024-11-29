@@ -25,7 +25,7 @@ export default function Navbar() {
         <span className="hidden md:block">Inicio</span>
       </Link> */}
       <Link
-        href="/products"
+        href="/products?colors=acid"
         className={clsx(
           "flex justify-center items-center gap-x-2 py-1 px-2 hover:bg-sky-500/10 rounded transition-colors border border-transparent text-sm",
           {
