@@ -8,6 +8,7 @@ interface Color {
   title: string;
   id: number;
   titulo: string;
+  dontShow?: boolean;
 }
 
 interface Product {
@@ -31,16 +32,19 @@ export const ProductsList = ({ products, name }: Props) => {
         <div className="border mb-[1px] w-full border-gray-500/50"></div>
       </div>
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 d-cols-3">
-        {products.colors.map(({ name, hex, title, id, titulo }) => (
-          <ProductCard
-            category={products.category}
-            key={id}
-            name={name}
-            hex={hex}
-            title={title}
-            titulo={titulo}
-          />
-        ))}
+        {products.colors.map(
+          ({ name, hex, title, id, titulo, dontShow }) =>
+            !dontShow && (
+              <ProductCard
+                category={products.category}
+                key={id}
+                name={name}
+                hex={hex}
+                title={title}
+                titulo={titulo}
+              />
+            ),
+        )}
       </div>
     </>
   );

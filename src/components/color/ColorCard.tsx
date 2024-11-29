@@ -2,11 +2,11 @@
 
 import { notFound, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
-import directColors from "@/data/products/direct-colors.json";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import directColors from "@/data/products/direct-colors.json";
 // import disperseColors from "@/data/products/disperse-colors.json";
 // import acidColors from "@/data/products/acid-colors.json";
 // import basicColors from "@/data/products/basic-colors.json";
@@ -40,7 +40,7 @@ export const ColorCard = ({ category }: Props) => {
     console.log(colorData?.image);
   });
 
-  if (!colorData) {
+  if (!colorData || colorData.dontShow) {
     notFound();
   }
 
