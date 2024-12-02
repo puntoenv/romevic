@@ -41,12 +41,28 @@ export const ProductsTabs = () => {
       className="flex flex-col justify-center items-center ml-2 font-semibold text-xl md:text-2xl xl:text-3xl p-8 md:px-16 xl:px-32"
       onValueChange={(value) => createPageURL(value)}
     >
-      <TabsList className="w-min">
-        <TabsTrigger value="acid">Colores Ácidos</TabsTrigger>
-        <TabsTrigger value="direct">Colores Directos</TabsTrigger>
-        <TabsTrigger value="reactive">Colores Reactivos</TabsTrigger>
-        <TabsTrigger value="disperse">Colores Dispersos</TabsTrigger>
-        <TabsTrigger value="basic">Colores Básicos</TabsTrigger>
+      <TabsList className="flex flex-wrap h-min max-md:py-2">
+        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="acid">
+          Colores Ácidos
+        </TabsTrigger>
+        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="direct">
+          Colores Directos
+        </TabsTrigger>
+        <TabsTrigger
+          className="text-xs md:text-base xl:text-lg"
+          value="reactive"
+        >
+          Colores Reactivos
+        </TabsTrigger>
+        <TabsTrigger
+          className="text-xs md:text-base xl:text-lg"
+          value="disperse"
+        >
+          Colores Dispersos
+        </TabsTrigger>
+        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="basic">
+          Colores Básicos
+        </TabsTrigger>
       </TabsList>
       <TabsContent value="acid" className="fade-in w-full">
         <ProductsList

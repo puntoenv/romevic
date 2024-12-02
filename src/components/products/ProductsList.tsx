@@ -26,7 +26,9 @@ export const ProductsList = ({ products, name }: Props) => {
     <>
       <div className="flex items-end">
         <h2 className="w-min text-nowrap">
-          <span className="px-2">{name}</span>
+          <span className="px-2 text-sm md:text-lg xl:text-2xl font-semibold">
+            {name}
+          </span>
           <div className="border-2 border-sky-500/50"></div>
         </h2>
         <div className="border mb-[1px] w-full border-gray-500/50"></div>

@@ -18,6 +18,10 @@ interface Props {
 
 const categories = {
   direct: "Directo",
+  acid: "Ácido",
+  disperse: "Disperso",
+  basic: "Básico",
+  reactive: "Reactivo",
 };
 
 const colors = {
@@ -53,31 +57,33 @@ export const ColorCard = ({ category }: Props) => {
         </Button>
       </Link>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-8 bg-muted rounded-lg w-full text-nowrap">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-8 p-8 bg-muted rounded-lg w-full text-nowrap">
         <div className="space-y-6">
           <div>
-            <h1 className="text-4xl font-bold mb-2">{colorData.titulo}</h1>
+            <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mb-2">
+              {colorData.titulo}
+            </h1>
           </div>
 
           <div className="bg-muted rounded-lg">
-            <h2 className="text-xl font-semibold mb-4">
+            <h2 className="text-sm md:text-lg lg:text-xl font-semibold mb-4">
               Especificaciones Técnicas
             </h2>
-            <dl className="grid gap-2">
+            <dl className="grid gap-2 text-sm md:text-lg lg:text-xl">
               <div className="grid grid-cols-2">
                 <dt className="font-medium">Categoría:</dt>
                 <dd>{categories[category as keyof typeof categories]}</dd>
               </div>
               <div className="grid grid-cols-2">
-                <dt className="font-medium">Código HEX:</dt>
-                <dd>{colorData.hex}</dd>
+                <dt className="font-medium">Código:</dt>
+                <dd>{colorData.name.split(" ").slice(1).join(" ")}</dd>
               </div>
             </dl>
           </div>
         </div>
         <Image
           src={colorData.image}
-          className="rounded-lg shadow-lg h-64 w-full"
+          className="rounded-lg shadow-lg md:h-64 w-full"
           style={{}}
           height={500}
           width={500}

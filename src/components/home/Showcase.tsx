@@ -10,25 +10,6 @@ export const Showcase = () => {
         </h2>
         <div className="flex justify-center items-center gap-5 md:gap-10 xl:gap-20 flex-wrap">
           <Link
-            href="/products?colors=acid"
-            className="relative group overflow-hidden rounded-lg"
-          >
-            <Image
-              alt="Jeans teñidos con un patrón de tie-dye colorido"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
-              height={300}
-              src="/acids.jpeg?height=300&width=400"
-              style={{
-                aspectRatio: "400/300",
-                objectFit: "contain",
-              }}
-              width={400}
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <p className="text-white text-xl font-bold">COLORANTES ÁCIDOS</p>
-            </div>
-          </Link>
-          <Link
             href="/products?colors=direct"
             className="relative group overflow-hidden rounded-lg"
           >
@@ -68,6 +49,25 @@ export const Showcase = () => {
               <p className="text-white text-xl font-bold">
                 COLORANTES REACTIVOS
               </p>
+            </div>
+          </Link>
+          <Link
+            href="/products?colors=acid"
+            className="relative group overflow-hidden rounded-lg"
+          >
+            <Image
+              alt="Jeans teñidos con un patrón de tie-dye colorido"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
+              height={300}
+              src="/acids.jpeg?height=300&width=400"
+              style={{
+                aspectRatio: "400/300",
+                objectFit: "contain",
+              }}
+              width={400}
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+              <p className="text-white text-xl font-bold">COLORANTES ÁCIDOS</p>
             </div>
           </Link>
           <Link

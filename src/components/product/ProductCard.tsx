@@ -24,7 +24,7 @@ export const ProductCard = ({ name, hex, titulo, category, title }: Props) => {
             backgroundColor: hex,
           }}
         />
-        <h5 className="text-center mb-1 text-base md:text-lg xl:text-xl font-bold text-gray-950/70 uppercase">
+        <h5 className="text-center mb-1 text-sm md:text-base xl:text-xl font-bold text-gray-950/70 uppercase">
           {titulo}
         </h5>
         <p className="text-center text-sm md:text-base xl:text-lg font-medium text-gray-950/50">
