@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { ShoppingBag } from "lucide-react";
+import { Phone, ShoppingBag } from "lucide-react";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -10,7 +10,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex gap-x-4 md:gap-x-8 font-bold">
+    <nav className="flex gap-x-1 md:gap-x-2 font-bold">
       {/* <Link
         href="/"
         className={clsx(
@@ -49,8 +49,8 @@ export default function Navbar() {
         <Newspaper size={15} />
         <span className="hidden md:block">Últimas Noticias</span>
       </Link> */}
-      {/* <Link
-        href="/"
+      <Link
+        href="/contact"
         className={clsx(
           "flex justify-center items-center gap-x-2 py-1 px-2 hover:bg-sky-500/10 rounded transition-colors border border-transparent text-sm",
           {
@@ -60,7 +60,7 @@ export default function Navbar() {
       >
         <Phone size={15} />
         <span className="hidden md:block">Contáctanos</span>
-      </Link> */}
+      </Link>
     </nav>
   );
 }

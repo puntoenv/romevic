@@ -5,8 +5,8 @@ export default function Home() {
     <main className="fade-in relative">
       <Hero />
       <About />
-      <Services />
       <Showcase />
+      <Services />
     </main>
   );
 }

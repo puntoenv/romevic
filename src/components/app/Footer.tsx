@@ -1,19 +1,20 @@
 import Image from "next/image";
 import { Location, Mail } from "../icons";
 import { WhatsappContact } from "./WhatsappContact";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
     <footer className="max-sm:text-center flex xl:justify-center w-full py-6 bg-primary text-gray-950 font-bold">
       <div className="px-4 flex flex-col md:flex-row justify-between w-full gap-y-4">
         <div className="flex flex-col justify-center items-center md:items-start gap-4">
-          <div className="flex flex-col md:flex-row justify-center flex-shrink-0 items-center gap-1">
+          <div className="flex justify-center flex-shrink-0 items-center gap-1">
             {/* <TestTube className="size-8" /> */}
             <Image src="/icon.png" alt="logo" width={20} height={20} />
             <span className="font-bold">Romevic SRL</span>
           </div>
           <ul className="flex flex-col lg:flex-row font-bold text-sm justify-center items-center md:items-start gap-4">
-            <a
+            <Link
               target="_blank"
               href="mailto:romevicsrl@hotmail.com"
               rel="noopener noreferrer"
@@ -24,8 +25,8 @@ export const Footer = () => {
                   romevicsrl@hotmail.com
                 </span>
               </li>
-            </a>
-            {/* <a
+            </Link>
+            {/* <Link
               target="_blank"
               href="https://wa.me/51986526366"
               rel="noopener noreferrer"
@@ -34,8 +35,8 @@ export const Footer = () => {
                 <Whatsapp className="size-4" />
                 <span>+51 986 526 366</span>
               </li>
-            </a> */}
-            <a
+            </Link> */}
+            <Link
               target="_blank"
               href="https://maps.app.goo.gl/KN2eppAPFehKn1hV6"
               rel="noopener roreferrer"
@@ -46,7 +47,7 @@ export const Footer = () => {
                   Kilca 201, San Juan de Lurigancho
                 </span>
               </li>
-            </a>
+            </Link>
           </ul>
         </div>
         <WhatsappContact />

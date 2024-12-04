@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Showcase = () => {
   return (
-    <section className="flex justify-center items-center w-full py-12 md:py-24 lg:py-32 bg-white">
+    <section className="flex justify-center items-center w-full py-6 bg-white mb-10 md:mb-20">
       <div className="container px-4 md:px-6">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8">
           Nuestros Productos
@@ -15,12 +15,12 @@ export const Showcase = () => {
           >
             <Image
               alt="Variedad de accesorios teñidos incluyendo bufandas y bolsos"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
               height={300}
               src="/directs.jpg?height=300&width=400"
               style={{
                 aspectRatio: "400/300",
-                objectFit: "contain",
+                objectFit: "cover",
               }}
               width={400}
             />
@@ -36,12 +36,12 @@ export const Showcase = () => {
           >
             <Image
               alt="Variedad de accesorios teñidos incluyendo bufandas y bolsos"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
               height={300}
               src="/reactives.jpeg?height=300&width=400"
               style={{
                 aspectRatio: "400/300",
-                objectFit: "contain",
+                objectFit: "cover",
               }}
               width={400}
             />
@@ -57,12 +57,12 @@ export const Showcase = () => {
           >
             <Image
               alt="Jeans teñidos con un patrón de tie-dye colorido"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
               height={300}
               src="/acids.jpeg?height=300&width=400"
               style={{
                 aspectRatio: "400/300",
-                objectFit: "contain",
+                objectFit: "cover",
               }}
               width={400}
             />
@@ -76,12 +76,12 @@ export const Showcase = () => {
           >
             <Image
               alt="Variedad de accesorios teñidos incluyendo bufandas y bolsos"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
               height={300}
-              src="/disperses.jpeg?height=300&width=400"
+              src="/disperses.jpg?height=300&width=400"
               style={{
                 aspectRatio: "400/300",
-                objectFit: "contain",
+                objectFit: "cover",
               }}
               width={400}
             />
@@ -97,12 +97,12 @@ export const Showcase = () => {
           >
             <Image
               alt="Camiseta teñida de varios colores vibrantes"
-              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150 opacity-0"
+              className="object-cover w-full h-60 transition-all max-md:scale-150 group-hover:scale-150"
               height={300}
-              src="/basics.jpeg?height=300&width=400"
+              src="/basics.webp?height=300&width=400"
               style={{
                 aspectRatio: "400/300",
-                objectFit: "contain",
+                objectFit: "cover",
               }}
               width={400}
             />
