@@ -1,19 +1,18 @@
 import Image from "next/image";
 import { Location, Mail } from "../icons";
-import { WhatsappContact } from "./WhatsappContact";
 import Link from "next/link";
 
 export const Footer = () => {
   return (
     <footer className="max-sm:text-center flex xl:justify-center w-full py-6 bg-primary text-gray-950 font-bold">
       <div className="px-4 flex flex-col md:flex-row justify-between w-full gap-y-4">
-        <div className="flex flex-col justify-center items-center md:items-start gap-4">
+        <div className="w-full flex flex-col md:flex-row justify-start md:justify-between xl:px-10 items-center md:items-start gap-4">
           <div className="flex justify-center flex-shrink-0 items-center gap-1">
             {/* <TestTube className="size-8" /> */}
             <Image src="/icon.png" alt="logo" width={20} height={20} />
             <span className="font-bold">Romevic SRL</span>
           </div>
-          <ul className="flex flex-col lg:flex-row font-bold text-sm justify-center items-center md:items-start gap-4">
+          <ul className="flex flex-col md:flex-row font-bold text-sm justify-center items-center md:items-start gap-4">
             <Link
               target="_blank"
               href="mailto:romevicsrl@hotmail.com"
@@ -50,7 +49,6 @@ export const Footer = () => {
             </Link>
           </ul>
         </div>
-        <WhatsappContact />
       </div>
     </footer>
   );
