@@ -50,7 +50,7 @@ export default function Navbar() {
         <span className="hidden md:block">Últimas Noticias</span>
       </Link> */}
       <Link
-        href="/contact"
+        href="/contactanos"
         className={clsx(
           "flex justify-center items-center gap-x-2 py-1 px-2 hover:bg-sky-500/10 rounded transition-colors border border-transparent text-sm",
           {

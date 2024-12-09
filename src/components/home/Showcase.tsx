@@ -10,7 +10,7 @@ export const Showcase = () => {
         </h2>
         <div className="flex justify-center items-center gap-5 md:gap-10 xl:gap-20 flex-wrap">
           <Link
-            href="/products?colors=direct"
+            href="/colorantes-textiles?colores=directos"
             className="relative group overflow-hidden rounded-lg"
           >
             <Image
@@ -31,7 +31,7 @@ export const Showcase = () => {
             </div>
           </Link>
           <Link
-            href="/products?colors=reactive"
+            href="/colorantes-textiles?colores=reactivos"
             className="relative group overflow-hidden rounded-lg"
           >
             <Image
@@ -52,7 +52,7 @@ export const Showcase = () => {
             </div>
           </Link>
           <Link
-            href="/products?colors=acid"
+            href="/colorantes-textiles?colores=acidos"
             className="relative group overflow-hidden rounded-lg"
           >
             <Image
@@ -71,7 +71,7 @@ export const Showcase = () => {
             </div>
           </Link>
           <Link
-            href="/products?colors=disperse"
+            href="/colorantes-textiles?colores=dispersos"
             className="relative group overflow-hidden rounded-lg"
           >
             <Image
@@ -92,7 +92,7 @@ export const Showcase = () => {
             </div>
           </Link>
           <Link
-            href="/products?colors=basic"
+            href="/colorantes-textiles?colores=basicos"
             className="relative group overflow-hidden rounded-lg"
           >
             <Image

@@ -8,12 +8,13 @@ export const Hero = () => {
       <div className="relative bg-gradient-to-t from-transparent via-white to-primary image pb-32 md:pb-48 lg:pb-64">
         <section className="w-full px-4 py-8 md:py-8 md:px-4 lg:py-16 lg:px-8 xl:px-16">
           <div className="text-gray-950 flex flex-col gap-y-2 md:gap-y-4">
-            <h1 className="text-center font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            <h1 className="hidden">Colorantes Textiles Romevic</h1>
+            <h2 className="text-center font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
               Transforma tus telas y prendas en Romevic
-            </h1>
-            <em className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-              Lider en insumos para la industria textil desde 1993
-            </em>
+            </h2>
+            <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+              <em>Lider en insumos para la industria textil desde 1993</em>
+            </h3>
             <p className="text-center text-base sm:text-lg md:text-xl lg:text-2xl">
               Nos dedicamos a traer soluciones químicas de calidad que impulsan
               tus proyectos con seguridad y confianza.
