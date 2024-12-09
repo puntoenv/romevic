@@ -1,6 +1,6 @@
 "use client";
 
-type Category = "basic" | "acid" | "direct" | "disperse" | "reactive";
+type Category = "basicos" | "acidos" | "directos" | "dispersos" | "reactivos";
 
 interface Color {
   name: string;
@@ -31,64 +31,70 @@ export const ProductsTabs = () => {
 
   const createPageURL = (newColor: string) => {
     const params = new URLSearchParams(searchParams);
-    params.set("colors", newColor.toString());
+    params.set("colores", newColor.toString());
     router.push(`${pathname}?${params.toString()}`);
   };
 
   return (
     <Tabs
-      defaultValue={searchParams.get("colors") ?? "acid"}
+      defaultValue={searchParams.get("colors") ?? "acidos"}
       className="flex flex-col justify-center items-center ml-2 font-semibold text-xl md:text-2xl xl:text-3xl p-8 md:px-16 xl:px-32"
       onValueChange={(value) => createPageURL(value)}
     >
       <TabsList className="flex flex-wrap h-min max-md:py-2">
-        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="acid">
+        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="acidos">
           Colores Ácidos
         </TabsTrigger>
-        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="direct">
+        <TabsTrigger
+          className="text-xs md:text-base xl:text-lg"
+          value="directos"
+        >
           Colores Directos
         </TabsTrigger>
         <TabsTrigger
           className="text-xs md:text-base xl:text-lg"
-          value="reactive"
+          value="reactivos"
         >
           Colores Reactivos
         </TabsTrigger>
         <TabsTrigger
           className="text-xs md:text-base xl:text-lg"
-          value="disperse"
+          value="dispersos"
         >
           Colores Dispersos
         </TabsTrigger>
-        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="basic">
+        <TabsTrigger
+          className="text-xs md:text-base xl:text-lg"
+          value="basicos"
+        >
           Colores Básicos
         </TabsTrigger>
       </TabsList>
-      <TabsContent value="acid" className="fade-in w-full">
+      <TabsContent value="acidos" className="fade-in w-full">
         <ProductsList
           products={acidColors as Product}
           name="Colorantes Ácidos"
         />
       </TabsContent>
-      <TabsContent value="direct" className="fade-in w-full">
+      <TabsContent value="directos" className="fade-in w-full">
         <ProductsList
           products={directColors as Product}
           name="Colorantes Directos"
         />
       </TabsContent>
-      <TabsContent value="reactive" className="fade-in w-full">
+      <TabsContent value="reactivos" className="fade-in w-full">
         <ProductsList
           products={reactiveColors as Product}
           name="Colorantes Reactivos"
         />
       </TabsContent>
-      <TabsContent value="disperse" className="fade-in w-full">
+      <TabsContent value="dispersos" className="fade-in w-full">
         <ProductsList
           products={disperseColors as Product}
           name="Colorantes Dispersos"
         />
       </TabsContent>
-      <TabsContent value="basic" className="fade-in w-full">
+      <TabsContent value="basicos" className="fade-in w-full">
         <ProductsList
           products={basicColors as Product}
           name="Colorantes Básicos"

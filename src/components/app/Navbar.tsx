@@ -25,12 +25,12 @@ export default function Navbar() {
         <span className="hidden md:block">Inicio</span>
       </Link> */}
       <Link
-        href="/products?colors=acid"
+        href="/colorantes-textiles?colores=acidos"
         className={clsx(
           "flex justify-center items-center gap-x-2 py-1 px-2 hover:bg-sky-500/10 rounded transition-colors border border-transparent text-sm",
           {
-            "bg-sky-500/10": pathname === "/products",
-            "pointer-events-none": pathname === "/products",
+            "bg-sky-500/10": pathname === "/colorantes-textiles",
+            "pointer-events-none": pathname === "/colorantes-textiles",
           },
         )}
       >
@@ -54,7 +54,7 @@ export default function Navbar() {
         className={clsx(
           "flex justify-center items-center gap-x-2 py-1 px-2 hover:bg-sky-500/10 rounded transition-colors border border-transparent text-sm",
           {
-            "bg-black/10": pathname === "/contact",
+            "bg-black/10": pathname === "/contactanos",
           },
         )}
       >

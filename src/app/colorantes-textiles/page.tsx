@@ -1,4 +1,4 @@
-import { ProductsBanner, ProductsTabs } from "@/components/products";
+import { ProductsBanner, ProductsTabs } from "@/components/colorantes-textiles";
 import { Suspense } from "react";
 
 export default async function Products() {

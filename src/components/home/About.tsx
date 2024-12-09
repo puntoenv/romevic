@@ -16,7 +16,7 @@ export const About = () => {
   const [value, setValue] = useState<AccordionValues>();
 
   return (
-    <div className="flex justify-center items-center p-4 md:py-16 xl:px-64">
+    <div className="flex justify-center items-center xl:px-64 py-12">
       <section className="container w-full flex justify-center items-center border px-4 rounded">
         <Accordion
           onValueChange={(newValue) => setValue(newValue as AccordionValues)}

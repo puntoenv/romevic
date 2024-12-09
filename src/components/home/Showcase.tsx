@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Showcase = () => {
   return (
-    <section className="flex justify-center items-center w-full py-6 bg-white mb-10 md:mb-20">
+    <section className="flex justify-center items-center w-full bg-white py-12">
       <div className="container px-4 md:px-6">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8">
           Nuestros Productos
@@ -24,7 +24,7 @@ export const Showcase = () => {
               }}
               width={400}
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center">
               <p className="text-white text-xl font-bold">
                 COLORANTES DIRECTOS
               </p>
@@ -45,7 +45,7 @@ export const Showcase = () => {
               }}
               width={400}
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center">
               <p className="text-white text-xl font-bold">
                 COLORANTES REACTIVOS
               </p>
@@ -66,7 +66,7 @@ export const Showcase = () => {
               }}
               width={400}
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center">
               <p className="text-white text-xl font-bold">COLORANTES ÁCIDOS</p>
             </div>
           </Link>
@@ -85,7 +85,7 @@ export const Showcase = () => {
               }}
               width={400}
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center">
               <p className="text-white text-xl font-bold">
                 COLORANTES DISPERSOS
               </p>
@@ -106,7 +106,7 @@ export const Showcase = () => {
               }}
               width={400}
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center">
               <p className="text-white text-xl font-bold">COLORANTES BÁSICOS</p>
             </div>
           </Link>

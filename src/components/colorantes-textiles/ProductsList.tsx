@@ -1,6 +1,6 @@
 import { ProductCard } from "../product/ProductCard";
 
-type Category = "basic" | "acid" | "direct" | "disperse" | "reactive";
+type Category = "basicos" | "acidos" | "directos" | "dispersos" | "reactivos";
 
 interface Color {
   name: string;
@@ -21,10 +21,10 @@ interface Props {
   name: string;
 }
 
-export const ProductsList = ({ products, name }: Props) => {
+export const ProductsList = ({ products }: Props) => {
   return (
     <>
-      <div className="flex items-end">
+      {/* <div className="flex items-end">
         <h2 className="w-min text-nowrap">
           <span className="px-2 text-sm md:text-lg xl:text-2xl font-semibold">
             {name}
@@ -32,7 +32,7 @@ export const ProductsList = ({ products, name }: Props) => {
           <div className="border-2 border-sky-500/50"></div>
         </h2>
         <div className="border mb-[1px] w-full border-gray-500/50"></div>
-      </div>
+      </div> */}
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 d-cols-3">
         {products.colors.map(
           ({ name, hex, title, id, titulo, dontShow }) =>
