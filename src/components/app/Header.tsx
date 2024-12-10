@@ -4,6 +4,7 @@ import Link from "next/link";
 import clsx from "clsx";
 import Navbar from "./Navbar";
 import Image from "next/image";
+// import { NavigationMenuDemo } from "./Barnav";
 
 export const Header = () => {
   // const pathname = usePathname();
@@ -25,6 +26,7 @@ export const Header = () => {
           <span className="font-bold">Romevic SRL</span>
         </Link>
         <Navbar />
+        {/* <NavigationMenuDemo /> */}
       </div>
     </header>
   );

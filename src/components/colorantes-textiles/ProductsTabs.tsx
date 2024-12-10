@@ -37,14 +37,11 @@ export const ProductsTabs = () => {
 
   return (
     <Tabs
-      defaultValue={searchParams.get("colors") ?? "acidos"}
+      defaultValue={searchParams.get("colores") ?? "acidos"}
       className="flex flex-col justify-center items-center ml-2 font-semibold text-xl md:text-2xl xl:text-3xl p-8 md:px-16 xl:px-32"
       onValueChange={(value) => createPageURL(value)}
     >
       <TabsList className="flex flex-wrap h-min max-md:py-2">
-        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="acidos">
-          Colores Ácidos
-        </TabsTrigger>
         <TabsTrigger
           className="text-xs md:text-base xl:text-lg"
           value="directos"
@@ -56,6 +53,9 @@ export const ProductsTabs = () => {
           value="reactivos"
         >
           Colores Reactivos
+        </TabsTrigger>
+        <TabsTrigger className="text-xs md:text-base xl:text-lg" value="acidos">
+          Colores Ácidos
         </TabsTrigger>
         <TabsTrigger
           className="text-xs md:text-base xl:text-lg"

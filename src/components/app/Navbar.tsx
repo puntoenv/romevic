@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { Phone, ShoppingBag } from "lucide-react";
+import { Building, Phone, ShoppingBag } from "lucide-react";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -21,8 +21,8 @@ export default function Navbar() {
           },
         )}
       >
-        <Home size={15} />
-        <span className="hidden md:block">Inicio</span>
+        <Building size={15} />
+        <span className="hidden md:block">Nosotros</span>
       </Link> */}
       <Link
         href="/colorantes-textiles?colores=acidos"
