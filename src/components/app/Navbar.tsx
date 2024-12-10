@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { Building, Phone, ShoppingBag } from "lucide-react";
+import { Phone, ShoppingBag } from "lucide-react";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
