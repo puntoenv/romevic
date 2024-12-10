@@ -11,7 +11,7 @@ interface Props {
 export const ProductCard = ({ name, hex, titulo, category, title }: Props) => {
   return (
     <Link
-      href={`/products/${category}?color=${title}`}
+      href={`/colorantes-textiles/${category}?color=${title}`}
       className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg grid place-content-center bg-sky-950/10 hover:bg-sky-950/20 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:border-sky-100/10 px-4"
       // style={{
       //   boxShadow: `0px 0px 5px ${hex}`,

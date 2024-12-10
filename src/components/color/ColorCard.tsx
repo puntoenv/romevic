@@ -1,7 +1,6 @@
 "use client";
 
 import { notFound, useSearchParams } from "next/navigation";
-import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -17,19 +16,19 @@ interface Props {
 }
 
 const categories = {
-  direct: "Directo",
-  acid: "Ácido",
-  disperse: "Disperso",
-  basic: "Básico",
-  reactive: "Reactivo",
+  directos: "Directo",
+  acidos: "Ácido",
+  dispersos: "Disperso",
+  basicos: "Básico",
+  reactivos: "Reactivo",
 };
 
 const colors = {
-  direct: directColors,
-  acid: acidColors,
-  disperse: disperseColors,
-  basic: basicColors,
-  reactive: reactiveColors,
+  directos: directColors,
+  acidos: acidColors,
+  dispersos: disperseColors,
+  basicos: basicColors,
+  reactivos: reactiveColors,
 };
 
 export const ColorCard = ({ category }: Props) => {
@@ -40,17 +39,13 @@ export const ColorCard = ({ category }: Props) => {
     (item) => item.title === color,
   );
 
-  useEffect(() => {
-    console.log(colorData?.image);
-  });
-
   if (!colorData || colorData?.dontShow) {
     notFound();
   }
 
   return (
     <div className="fade-in grid place-content-center py-8 px-4">
-      <Link href={`/products?colors=${category}`}>
+      <Link href={`/colorantes-textiles?colors=${category}`}>
         <Button variant="ghost" className="mb-6">
           <ArrowLeft className="mr-2 h-4 w-4" />
           Volver al catálogo
