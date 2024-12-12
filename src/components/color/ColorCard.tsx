@@ -45,7 +45,7 @@ export const ColorCard = ({ category }: Props) => {
 
   return (
     <div className="fade-in grid place-content-center py-8 px-4">
-      <Link href={`/colorantes-textiles?colors=${category}`}>
+      <Link href={`/colorantes-textiles?colores=${category}`}>
         <Button variant="ghost" className="mb-6">
           <ArrowLeft className="mr-2 h-4 w-4" />
           Volver al catálogo
@@ -79,9 +79,8 @@ export const ColorCard = ({ category }: Props) => {
         <Image
           src={colorData.image}
           className="rounded-lg shadow-lg md:h-64 w-full"
-          style={{}}
-          height={500}
-          width={500}
+          height={720}
+          width={1440}
           alt="color-image"
         />
       </div>

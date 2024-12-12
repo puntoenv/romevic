@@ -32,7 +32,7 @@ export function NavigationMenuDemo() {
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-1 md:gap-3 w-[130px] md:w-[410px] p-2 md:p-4">
+            <ul className="grid gap-1 md:gap-3 w-[130px] md:w-[410px] px-1 py-2 md:p-4">
               <ListItem
                 href="/quienes-somos"
                 // title="Quienes Somos"
