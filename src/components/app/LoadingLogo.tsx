@@ -10,14 +10,12 @@ interface Props {
 export const LoadingLogo = ({ children }: Props) => {
   const [showLoader, setShowLoader] = useState(true);
 
-  const randomSeconds = (Math.floor(Math.random() * 3) + 1) * 1000;
-
   const time = async () => {
     return new Promise((resolve) => {
       setTimeout(() => {
         setShowLoader(false);
         resolve(true);
-      }, randomSeconds);
+      }, 1500);
     });
   };
 
