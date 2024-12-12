@@ -1,13 +1,16 @@
+"use client";
+
 import Link from "next/link";
 // import { TestTube } from "../icons";
 // import { usePathname } from "next/navigation";
 import clsx from "clsx";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import Image from "next/image";
-// import { NavigationMenuDemo } from "./Barnav";
+import { NavigationMenuDemo } from "./NavigationMenuDemo";
+import { usePathname } from "next/navigation";
 
 export const Header = () => {
-  // const pathname = usePathname();
+  const pathname = usePathname();
 
   return (
     <header className="px-2 sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur-lg supports-[backdrop-filter]:bg-background/60 flex justify-center">
@@ -17,7 +20,7 @@ export const Header = () => {
           // aria-disabled={pathname === "/" ? "true" : "false"}
           className={clsx(
             "flex justify-center items-center px-2 space-x-1 md:space-x-2",
-            // { "pointer-events-none": pathname === "/" },
+            { "pointer-events-none": pathname === "/" },
           )}
           href="/"
         >
@@ -25,8 +28,7 @@ export const Header = () => {
           <Image src="/icon.png" alt="logo" width={20} height={20} />
           <span className="font-bold">Romevic SRL</span>
         </Link>
-        <Navbar />
-        {/* <NavigationMenuDemo /> */}
+        <NavigationMenuDemo />
       </div>
     </header>
   );
