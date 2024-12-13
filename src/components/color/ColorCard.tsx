@@ -77,6 +77,7 @@ export const ColorCard = ({ category }: Props) => {
           </div>
         </div>
         <Image
+          loading="eager"
           src={colorData.image}
           className="rounded-lg shadow-lg md:h-64 w-full"
           height={720}
