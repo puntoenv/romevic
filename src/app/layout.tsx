@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import "./globals.css";
-import { Footer, Header } from "@/components/app";
+import { Footer, Header, WhatsappContact } from "@/components/app";
 import { Raleway } from "next/font/google";
 import { Metadata } from "next";
 
@@ -51,6 +51,7 @@ export default function RootLayout({
           <Header />
           {children}
         </div>
+        <WhatsappContact />
         <Footer />
       </body>
     </html>
