@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface Props {
@@ -6,9 +7,17 @@ interface Props {
   title: string;
   titulo: string;
   category: string;
+  img?: string;
 }
 
-export const ProductCard = ({ name, hex, titulo, category, title }: Props) => {
+export const ProductCard = ({
+  name,
+  hex,
+  titulo,
+  category,
+  title,
+  img,
+}: Props) => {
   return (
     <Link
       href={`/colorantes-textiles/${category}?color=${title}`}
@@ -18,12 +27,23 @@ export const ProductCard = ({ name, hex, titulo, category, title }: Props) => {
       // }}
     >
       <div className="flex flex-col items-center justify-center py-6">
-        <div
-          className={`w-24 h-24 mt-1 mb-4 rounded-full shadow-lg text-center`}
-          style={{
-            backgroundColor: hex,
-          }}
-        />
+        {img ? (
+          <Image
+            src={img}
+            height={100}
+            width={100}
+            alt="color"
+            className="mb-4 rounded-full size-24 shadow-2xl"
+            loading="eager"
+          />
+        ) : (
+          <div
+            className={`w-24 h-24 mt-1 mb-4 rounded-full shadow-lg text-center`}
+            style={{
+              backgroundColor: hex,
+            }}
+          />
+        )}
         <h5 className="text-center mb-1 text-sm md:text-base xl:text-xl font-bold text-gray-950/70 uppercase">
           {titulo}
         </h5>

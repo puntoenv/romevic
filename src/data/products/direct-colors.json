@@ -8,7 +8,8 @@
       "name": "Direct Yellow 96",
       "image": "/colors/direct/direct-yellow-96/image.png",
       "hex": "#E6F66D",
-      "dontShow": true
+      "dontShow": true,
+      "img": "/list-colors/direct/direct-yellow-96.png"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "titulo": "Amarillo Triamin PG",
       "name": "Direct Yellow 142",
       "image": "/colors/direct/direct-yellow-142/image.png",
-      "hex": "#FFFE64"
+      "hex": "#FFFE64",
+      "img": "/list-colors/direct/direct-yellow-142.png"
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@
       "titulo": "Amarillo Triamin RL EXT.CON",
       "name": "Direct Yellow 86",
       "image": "/colors/direct/direct-yellow-86/image.png",
-      "hex": "#F2B900"
+      "hex": "#F2B900",
+      "img": "/list-colors/direct/direct-yellow-86.png"
     },
     {
       "id": 4,
@@ -32,7 +35,8 @@
       "titulo": "Naranja Triamin S 200%",
       "name": "Direct Orange 26",
       "image": "/colors/direct/direct-orange-26/image.png",
-      "hex": "#F6703D"
+      "hex": "#F6703D",
+      "img": "/list-colors/direct/direct-orange-26.png"
     },
     {
       "id": 5,
@@ -40,7 +44,8 @@
       "titulo": "Naranja Triamin 2GL-AN CONC.",
       "name": "Direct Orange 39",
       "image": "/colors/direct/direct-orange-39/image.png",
-      "hex": "#FEA73F"
+      "hex": "#FEA73F",
+      "img": "/list-colors/direct/direct-orange-39.png"
     },
     {
       "id": 6,
@@ -48,7 +53,8 @@
       "titulo": "Rosa Triamin FR CONC.",
       "name": "Direct Red 227",
       "image": "/colors/direct/direct-red-227/image.png",
-      "hex": "#BB0066"
+      "hex": "#BB0066",
+      "img": "/list-colors/direct/direct-red-227.png"
     },
     {
       "id": 7,
@@ -56,7 +62,8 @@
       "titulo": "Escarlata Triamin 4BS E.C.",
       "name": "Direct Red 23",
       "image": "/colors/direct/direct-red-23/image.png",
-      "hex": "#C74342"
+      "hex": "#C74342",
+      "img": "/list-colors/direct/direct-red-23.png"
     },
     {
       "id": 8,
@@ -64,7 +71,8 @@
       "titulo": "Escarlata Triamin F2G",
       "name": "Direct Red 224",
       "image": "/colors/direct/direct-red-224/image.png",
-      "hex": "#CF3E3F"
+      "hex": "#CF3E3F",
+      "img": "/list-colors/direct/direct-red-224.png"
     },
     {
       "id": 9,
@@ -72,7 +80,8 @@
       "titulo": "Rojo Triamin F3B-A EXT.CONC.",
       "name": "Direct Red 80",
       "image": "/colors/direct/direct-red-80/image.png",
-      "hex": "#8C1718"
+      "hex": "#8C1718",
+      "img": "/list-colors/direct/direct-red-80.png"
     },
     {
       "id": 10,
@@ -80,7 +89,8 @@
       "titulo": "Rojo Triamin BWS",
       "name": "Direct Red 243",
       "image": "/colors/direct/direct-red-243/image.png",
-      "hex": "#C9184C"
+      "hex": "#C9184C",
+      "img": "/list-colors/direct/direct-red-243.png"
     },
     {
       "id": 11,
@@ -88,7 +98,8 @@
       "titulo": "Rubí Triamin 2BL-N CONC.",
       "name": "Direct Red 83",
       "image": "/colors/direct/direct-red-83/image.png",
-      "hex": "#A11212"
+      "hex": "#A11212",
+      "img": "/list-colors/direct/direct-red-83.png"
     },
     {
       "id": 12,
@@ -96,7 +107,8 @@
       "titulo": "Azul Triamin Brillante GL",
       "name": "Direct Blue 293",
       "image": "/colors/direct/direct-blue-293/image.png",
-      "hex": "#003DA5"
+      "hex": "#003DA5",
+      "img": "/list-colors/direct/direct-blue-293.png"
     },
     {
       "id": 13,
@@ -104,7 +116,8 @@
       "titulo": "Azul Triamin BRL 200%",
       "name": "Direct Blue 201",
       "image": "/colors/direct/direct-blue-201/image.png",
-      "hex": "#040976"
+      "hex": "#040976",
+      "img": "/list-colors/direct/direct-blue-201.png"
     },
     {
       "id": 14,
@@ -112,7 +125,8 @@
       "titulo": "Azul Triamin BRR 200%",
       "name": "Direct Blue 71",
       "image": "/colors/direct/direct-blue-71/image.png",
-      "hex": "#202C58"
+      "hex": "#202C58",
+      "img": "/list-colors/direct/direct-blue-71.png"
     },
     {
       "id": 15,
@@ -120,7 +134,8 @@
       "titulo": "Azul Triamin 3RL 300%",
       "name": "Direct Blue 67",
       "image": "/colors/direct/direct-blue-67/image.png",
-      "hex": "#042EA4"
+      "hex": "#042EA4",
+      "img": "/list-colors/direct/direct-blue-67.png"
     },
     {
       "id": 16,
@@ -129,7 +144,8 @@
       "name": "Direct Blue 108",
       "image": "/colors/direct/direct-blue-108/image.png",
       "hex": "#1C1CFF",
-      "dontShow": true
+      "dontShow": true,
+      "img": "/list-colors/direct/direct-blue-108.png"
     },
     {
       "id": 17,
@@ -137,7 +153,8 @@
       "titulo": "Turquesa Triamin FBL 400%",
       "name": "Direct Blue 199",
       "image": "/colors/direct/direct-blue-199/image.png",
-      "hex": "#11B6C2"
+      "hex": "#11B6C2",
+      "img": "/list-colors/direct/direct-blue-199.png"
     },
     {
       "id": 25,
@@ -145,7 +162,8 @@
       "titulo": "Verde Triamin BA-N CONC.",
       "name": "Direct Green 1",
       "image": "/colors/direct/direct-green-1/image.png",
-      "hex": "#00A877"
+      "hex": "#00A877",
+      "img": "/list-colors/direct/direct-green-1.png"
     },
     {
       "id": 18,
@@ -153,7 +171,8 @@
       "titulo": "Pardo Triamin BL EXTRA",
       "name": "Direct Brown 103",
       "image": "/colors/direct/direct-brown-103/image.png",
-      "hex": "#5E4024"
+      "hex": "#5E4024",
+      "img": "/list-colors/direct/direct-brown-103.png"
     },
     {
       "id": 19,
@@ -161,7 +180,8 @@
       "titulo": "Pardo Triamin 2GL CONC.",
       "name": "Direct Brown 115",
       "image": "/colors/direct/direct-brown-115/image.png",
-      "hex": "#6D4035"
+      "hex": "#6D4035",
+      "img": "/list-colors/direct/direct-brown-115.png"
     },
     {
       "id": 20,
@@ -169,7 +189,8 @@
       "titulo": "Pardo Triamin RL-A 130%",
       "name": "Direct Brown 116",
       "image": "/colors/direct/direct-brown-116/image.png",
-      "hex": "#6C401B"
+      "hex": "#6C401B",
+      "img": "/list-colors/direct/direct-brown-116.png"
     },
     {
       "id": 21,
@@ -177,7 +198,8 @@
       "titulo": "Gris Triamin 4GL-T 300%",
       "name": "Direct Black 62",
       "image": "/colors/direct/direct-black-62/image.png",
-      "hex": "#282828"
+      "hex": "#282828",
+      "img": "/list-colors/direct/direct-black-62.png"
     },
     {
       "id": 22,
@@ -185,7 +207,8 @@
       "titulo": "Gris Triamin CGLL-A",
       "name": "Direct Black 112",
       "image": "/colors/direct/direct-black-112/image.png",
-      "hex": "#01071E"
+      "hex": "#01071E",
+      "img": "/list-colors/direct/direct-black-112.png"
     },
     {
       "id": 23,
@@ -193,7 +216,8 @@
       "titulo": "Negro Triamin VSF 1,600%",
       "name": "Direct Black 22",
       "image": "/colors/direct/direct-black-22/image.png",
-      "hex": "#242021"
+      "hex": "#242021",
+      "img": "/list-colors/direct/direct-black-22.png"
     },
     {
       "id": 24,
@@ -202,7 +226,8 @@
       "name": "Direct Violet 66",
       "image": "/colors/direct/direct-violet-66/image.png",
       "hex": "#8D5EC8",
-      "dontShow": true
+      "dontShow": true,
+      "img": "/list-colors/direct/direct-violet-66/image.png"
     }
   ]
 }

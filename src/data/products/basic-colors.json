@@ -8,7 +8,7 @@
       "name": "Basic Yellow 28",
       "image": "/colors/basic/basic-yellow-28/image.png",
       "hex": "#FF9F00",
-      "dontShow": false
+      "img": "/list-colors/basic/basic-yellow-28.png"
     },
     {
       "id": 2,
@@ -16,7 +16,8 @@
       "titulo": "Triacryl Rojo Violeta 3R",
       "name": "Basic Red 16",
       "image": "/colors/basic/basic-red-16/image.png",
-      "hex": "#B11482"
+      "hex": "#B11482",
+      "img": "/list-colors/basic/basic-red-16.png"
     },
     {
       "id": 3,
@@ -24,7 +25,8 @@
       "titulo": "Triacryl Azul X-GRL 250%",
       "name": "Basic Blue 41",
       "image": "/colors/basic/basic-blue-41/image.png",
-      "hex": "#1B4192"
+      "hex": "#1B4192",
+      "img": "/list-colors/basic/basic-blue-41.png"
     },
     {
       "id": 4,
@@ -32,7 +34,9 @@
       "titulo": "Verde Malachita (Verde 4)",
       "name": "Basic Green 4",
       "image": "/colors/basic/basic-green-4/image.png",
-      "hex": "#348946"
+      "hex": "#348946",
+      "img": "/list-colors/basic/basic-green-4.png",
+      "dontShow": true
     }
   ]
 }

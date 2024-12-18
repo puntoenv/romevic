@@ -4,3 +4,6 @@ export * from "./Whatsapp";
 export * from "./Location";
 export * from "./TestTube";
 export * from "./WhatsappLogo";
+export * from "./Facebook";
+export * from "./TikTok";
+export * from "./Instagram";

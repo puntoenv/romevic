@@ -1,4 +1,4 @@
-import { Palette, Phone, Mail, Brain } from "lucide-react";
+import { Palette, Phone, Mail } from "lucide-react";
 
 export const Services = () => {
   return (
@@ -7,7 +7,7 @@ export const Services = () => {
         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8">
           Lo Que Hacemos
         </h2>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           <div className="flex flex-col items-center space-y-4 text-center p-6 bg-white rounded-lg shadow-md transition-transform hover:scale-105 h-full">
             <div className="rounded-full bg-purple-500 p-4">
               <Palette className="h-6 w-6 text-white" />
@@ -36,7 +36,7 @@ export const Services = () => {
               Estamos aquí para ayudarte en cada paso del proceso de teñido.
             </p>
           </div>
-          <div className="flex flex-col items-center space-y-4 text-center p-6 bg-white rounded-lg shadow-md transition-transform hover:scale-105">
+          {/* <div className="flex flex-col items-center space-y-4 text-center p-6 bg-white rounded-lg shadow-md transition-transform hover:scale-105">
             <div className="rounded-full bg-yellow-500 p-4">
               <Brain className="h-6 w-6 text-white" />
             </div>
@@ -45,7 +45,7 @@ export const Services = () => {
               Desarrollamos soluciones químicas innovadoras adaptadas a las
               necesidades específicas de cada cliente.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

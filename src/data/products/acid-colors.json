@@ -8,7 +8,8 @@
       "name": "Acid Yellow 17",
       "image": "/colors/acid/acid-yellow-17/image.png",
       "hex": "#F0D50A",
-      "dontShow": false
+      "dontShow": false,
+      "img": "/list-colors/acid/acid-yellow-17.png"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "titulo": "Naranja Ácido II CONC.",
       "name": "Acid Orange 7",
       "image": "/colors/acid/acid-orange-7/image.png",
-      "hex": "#F9472A"
+      "hex": "#F9472A",
+      "img": "/list-colors/acid/acid-orange-7.png"
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@
       "titulo": "Rojo Ácido 3BN 160%",
       "name": "Acid Red 131",
       "image": "/colors/acid/acid-red-131/image.png",
-      "hex": "#B21909"
+      "hex": "#B21909",
+      "img": "/list-colors/acid/acid-red-131.png"
     },
     {
       "id": 4,
@@ -32,7 +35,8 @@
       "titulo": "Azul Ácido 5RN-A CONC.",
       "name": "Acid Blue 113",
       "image": "/colors/acid/acid-blue-113/image.png",
-      "hex": "#001A71"
+      "hex": "#001A71",
+      "img": "/list-colors/acid/acid-blue-113.png"
     },
     {
       "id": 5,
@@ -40,7 +44,8 @@
       "titulo": "Negro Ácido DR-A 150%",
       "name": "Acid Black 194",
       "image": "/colors/acid/acid-black-194/image.png",
-      "hex": "#1F1E1C"
+      "hex": "#1F1E1C",
+      "img": "/list-colors/acid/acid-black-194.png"
     }
   ]
 }

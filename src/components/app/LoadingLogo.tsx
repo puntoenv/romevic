@@ -15,7 +15,7 @@ export const LoadingLogo = ({ children }: Props) => {
       setTimeout(() => {
         setShowLoader(false);
         resolve(true);
-      }, 1500);
+      }, 1000);
     });
   };
 

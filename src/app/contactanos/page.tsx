@@ -100,7 +100,7 @@ export default function ContactSection() {
                 rel="noopener roreferrer"
                 className="text-muted-foreground"
               >
-                Mz Lca 201, San Juan de Lurigancho
+                Kilca 201, San Juan de Lurigancho
               </Link>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.263161071405!2d-76.98935972409738!3d-12.025395241504949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5c29ad3623d%3A0x32c42727984a77b8!2sromevic!5e0!3m2!1sen!2spe!4v1734151173374!5m2!1sen!2spe"

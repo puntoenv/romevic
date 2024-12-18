@@ -1,6 +1,6 @@
 "use client";
 
-import { notFound, useSearchParams } from "next/navigation";
+import { notFound, useRouter, useSearchParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -35,6 +35,8 @@ export const ColorCard = ({ category }: Props) => {
   const searchParams = useSearchParams();
   const color = searchParams.get("color");
 
+  const router = useRouter();
+
   const colorData = colors[category as keyof typeof colors]?.colors.find(
     (item) => item.title === color,
   );
@@ -45,12 +47,17 @@ export const ColorCard = ({ category }: Props) => {
 
   return (
     <div className="fade-in grid place-content-center py-8 px-4">
-      <Link href={`/colorantes-textiles?colores=${category}`}>
-        <Button variant="ghost" className="mb-6">
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Volver al catálogo
-        </Button>
-      </Link>
+      <Button
+        variant="ghost"
+        className="mb-6 w-min"
+        onClick={(e) => {
+          e.preventDefault();
+          router.push(`/colorantes-textiles?colores=${category}`);
+        }}
+      >
+        <ArrowLeft className="mr-2 h-4 w-4" />
+        Volver al catálogo
+      </Button>
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 p-8 bg-muted rounded-lg w-full text-nowrap">
         <div className="space-y-6">

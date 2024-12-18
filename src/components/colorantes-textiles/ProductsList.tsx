@@ -9,6 +9,7 @@ interface Color {
   id: number;
   titulo: string;
   dontShow?: boolean;
+  img?: string;
 }
 
 interface Product {
@@ -33,9 +34,9 @@ export const ProductsList = ({ products }: Props) => {
         </h2>
         <div className="border mb-[1px] w-full border-gray-500/50"></div>
       </div> */}
-      <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 d-cols-3">
+      <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 d-cols-3 place-items-center w-full">
         {products.colors.map(
-          ({ name, hex, title, id, titulo, dontShow }) =>
+          ({ name, hex, title, id, titulo, dontShow, img }) =>
             !dontShow && (
               <ProductCard
                 category={products.category}
@@ -44,6 +45,7 @@ export const ProductsList = ({ products }: Props) => {
                 hex={hex}
                 title={title}
                 titulo={titulo}
+                img={img}
               />
             ),
         )}
